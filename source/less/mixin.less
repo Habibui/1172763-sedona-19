@@ -1,0 +1,46 @@
+.margin-padding() {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.some-title() {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.some-paragraph() {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.some-label() {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.flex-column-center() {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container() {
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+
+  @media (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media (min-width: 1280px) {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 1280px;
+  }
+}
